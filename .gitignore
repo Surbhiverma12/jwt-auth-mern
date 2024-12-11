@@ -1,0 +1,32 @@
+# Node.js and React related
+node_modules/
+build/
+dist/
+
+# Environment files
+.env
+
+# Log files
+*.log
+
+# OS specific files
+.DS_Store  # For macOS
+Thumbs.db  # For Windows
+
+# IDE specific files (VS Code, etc.)
+.vscode/
+.idea/
+
+# Debugging and testing
+*.tgz
+coverage/
+
+# Ignore server logs and database files
+server/logs/
+server/database/
+
+# Specific to client (React)
+client/build/
+client/.env
+client/node_modules/
+
